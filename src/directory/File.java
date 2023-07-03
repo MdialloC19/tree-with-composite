@@ -16,8 +16,8 @@ public class File extends Directory{
     public void displayItems( ){
         String tab= "";
         for(int i=0; i<this.level; i++)
-            tab+="----";
-        System.out.println(tab+""+this.name);
+            tab+="\u2502    ";
+        System.out.println(tab+"\u251c\u2500\u2500\u2500"+this.name);
         
             
         
