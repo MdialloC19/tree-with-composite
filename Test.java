@@ -2,20 +2,20 @@ import directory.DirectoryComposite;
 import directory.File;
 import directory.Directory;
 
-public  class Test {
+public class Test {
 
     public static void main(String[] args) {
 
-        DirectoryComposite Dec  =new DirectoryComposite("Dossier 1");
-        DirectoryComposite Dec1 =new DirectoryComposite("Dossier 2");
-        DirectoryComposite Dec2 =new DirectoryComposite("Dossier 2");
-        DirectoryComposite Dec3 =new DirectoryComposite("Dossier 3");
-        DirectoryComposite Dec4 =new DirectoryComposite("Dossier 3");
+        DirectoryComposite Dec = new DirectoryComposite("Dossier 0");
+        DirectoryComposite Dec1 = new DirectoryComposite("Dossier 1");
+        DirectoryComposite Dec2 = new DirectoryComposite("Dossier 2");
+        DirectoryComposite Dec3 = new DirectoryComposite("Dossier 3");
+        DirectoryComposite Dec4 = new DirectoryComposite("Dossier 4");
 
-        File F1=new File("Fichier 1");
-        File F2=new File("Fichier 2");
-        File F3=new File("Fichier 3");
-        File F4=new File("Fichier 4");
+        File F1 = new File("Fichier 1");
+        File F2 = new File("Fichier 2");
+        File F3 = new File("Fichier 3");
+        File F4 = new File("Fichier 4");
 
         Dec.addItem(Dec1);
         Dec.addItem(Dec2);
@@ -30,12 +30,9 @@ public  class Test {
 
         Dec4.addItem(F3);
         Dec4.addItem(F4);
-        
+
         Dec.displayItems();
         // Dec.displayItems();
 
-
-
-        
     }
 }

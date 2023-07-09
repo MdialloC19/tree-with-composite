@@ -31,7 +31,7 @@ public class DirectoryComposite extends Directory {
     public void displayItems() {
         String tab = "";
         for (int i = 0; i < this.level; i++)
-            tab += "\u2502    ";
+            tab += "\u2502\t";
         if (this.level == 0)
             System.out.println(tab + "\u2502\u2500\u2500\u2500" + this.name);
         else
