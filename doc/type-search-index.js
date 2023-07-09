@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"directory","l":"Directory"},{"p":"directory","l":"DirectoryComposite"},{"p":"directory","l":"File"}];updateSearchResults();
