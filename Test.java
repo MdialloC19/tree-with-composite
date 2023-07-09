@@ -1,7 +1,7 @@
 import directory.DirectoryComposite;
 import directory.File;
 
-public class main {
+public class Test {
     public static void main(String[] args) {
 
         DirectoryComposite Dec  =new DirectoryComposite("Dossier 0");
